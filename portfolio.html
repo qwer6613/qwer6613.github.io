@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio</title>
+     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    
+</head>
+    <style>
+            body{
+                margin : 20px 300px 20px 300px;
+                background-color:ivory;
+                font-family: 'roboto';
+                
+            }
+             #headA #headA_h1 a {
+             display: inline-block;
+             line-height:60px;
+             padding-left: 15px;
+             padding-right: 15px;
+             padding-bottom: 0px;
+             color: #888888;
+             font-size: 35px;
+             text-decoration: none;
+             text-shadow: 5px 5px 8px #666666;
+         }
+             #headA #headA_h1 a:hover {
+             background-color:#888888;
+             color: #ffffff;
+             border-bottom: 2px solid #888888;
+         }
+         #headA {
+             margin: 0px;
+             padding-top: 10px;
+             padding-left: 20px;
+             padding-right: 10px;
+             font-size: 12px;
+         }
+         #headA {
+             max-width: 1000px;
+             float: left;
+         }
+    /*        메뉴*/
+         #headC {
+             float: right;
+             margin-right:20px;
+             margin-top: 20px;
+             color: #ffffff;
+             padding-bottom: 2px;
+         }
+         #main_menu ul {
+             margin: 0;
+             padding: 0;
+             margin-top: 10px;
+         }
+         #main_menu li {
+             list-style-type: none;
+             display: inline-block;
+             padding: 0px 5px 0px 0px;
+             margin-top: 18px;
+         } 
+         #main_menu li a {
+             text-decoration: none;
+             color: #888888;
+             padding: 5px 5px;
+             margin-top: 10px;
+         }
+         #main_menu a:hover{
+             color: black;
+             border-bottom: 2px solid #333333;
+             text-shadow: 2px 2px 2px sandybrown;
+         }
+/*         float 해제*/
+         .clear {
+             clear:both;
+         }
+/*         본문*/
+           table {
+                border-collapse: collapse;
+                background-color: none;
+                text-align: center
+           }
+           table, td, th{
+                border:solid 0px #cccccc;
+           }
+/*         저작권*/
+         #footer {
+             border-top: 1px solid #dddddd;
+             margin-top: 20px;
+             margin-bottom: 30px;
+         }
+         
+         #footer p {
+             font-size: 14px;
+             color: #666666;
+             margin-left: 15px;
+             margin-top: 5px;
+         }
+         #footer span {
+             font-size: 12px;
+             font-weight: normal;
+             margin-left: 14px;
+         } 
+        h1 {
+            font-size: 50px;
+            font-family: 'oswald';
+            color: #333333;
+        }
+        img {
+            width: 300px;
+            height: 300px;
+            padding: 4px 20px;
+        }
+    </style>
+    <body>
+        <header>
+            <div id="headA">
+                <h1 id="headA_h1"><a href="index.html" class="site">INDEX</a></h1>
+            </div>
+            <div id="headC">
+                <ul id="main_menu">
+                    <li><a href="profile.html">Profile</a></li>
+                    <li><a href="hw01.html">HW01</a></li>
+                    <li><a href="hw02.html">HW02</a></li>
+                    <li><a href="hw03.html">HW03</a></li>
+                    <li><a href="hw04.html">HW04</a></li>
+                    <li><a href="hw05.html">HW05</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                </ul>
+            </div>
+        </header>
+<!--       float 해제-->
+            <div class="clear"></div>
+<!--        본문-->
+        <h1>Portfolio</h1>   
+            <table>
+                <tr>
+                <td><img src="img/123.PNG" alt='3d디자인'></td>
+                <td><img src="img/124.png" alt='컨텐츠기획'></td>   
+                <td><img src="img/125.png" alt='컨텐츠디자인'></td>
+                </tr>
+                <tr>
+                <th>3D Design</th>    
+                <th>Contents Planning</th>
+                <th>Contents Design</th>
+                </tr>
+                <tr>
+                <td>Modelling</td>
+                <td>Website Renewal</td>
+                <td>Website Design</td>
+                </tr>
+            </table>
+            <br>
+<!--        저작권-->
+    <footer>
+        <div id="footer">
+
+              <p>
+               copyright &copy <a href="index.html" class="site">kwkim</a> all rights reserved.
+            </p>
+               <span>EMAIL : qwer6613@gmail.com</span>
+        </div>
+        </footer>
+    </body>
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+</html>
