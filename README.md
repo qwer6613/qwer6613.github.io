@@ -1,1 +1,1 @@
-Fuck You
+f u
