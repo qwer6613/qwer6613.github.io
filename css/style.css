@@ -1,0 +1,188 @@
+<style>
+       * {
+    padding: 0;
+    margin: 0;
+    }
+        body {
+            background-color: ivory;
+            max-width: 1920px;
+            font-family: 'roboto';
+        }
+/*         헤더*/
+        
+        header {
+            max-width: 1920px;
+        }
+/*         사이트 이름*/
+         #headA #headA_h1 a {
+             display: inline-block;
+             line-height:60px;
+             padding-left: 15px;
+             padding-right: 15px;
+             padding-bottom: 0px;
+             color: sandybrown;
+             font-size: 35px;
+             text-decoration: none;
+             text-shadow: 5px 5px 8px #888888;
+             font-family: 'Mali'
+         }
+         #headA #headA_h1 a:hover {
+             background-color:coral;
+             color: #ffffff;
+             border-bottom: 2px solid #888888;
+         }
+         #headA {
+             margin: 0px;
+             padding-top: 10px;
+             padding-left: 20px;
+             padding-right: 10px;
+             font-size: 12px;
+         }
+         #headA {
+             max-width: 1000px;
+             float: left;
+         }
+/*        메뉴*/
+         #headC {
+             position: relative;
+             float: right;
+             margin-right:20px;
+             margin-top: 20px;
+             color: #ffffff;
+             padding-bottom: 2px;
+         }
+/*         float 해제*/
+         .clear {
+             clear:both;
+         }
+/*         본문 내용 배치*/
+         #wrapper{
+             max-width: 800px;
+             margin: 0 auto;
+            text-align: center;
+             
+         }
+        /*         profile css*/
+         #title {
+             text-align: center;
+             color: #444444;
+             font-family: 'Indie Flower';
+             font-size: 60px;
+             text-shadow: 5px 5px 8px darkgoldenrod;
+             margin: 20px;
+         }
+        #img_main{
+            border-radius:20px;
+         }
+         h2{
+             
+             color: #444444;
+             font-size: 30px;
+             text-decoration:none;
+         }
+         
+         h3 {
+             color: #444444;
+             font-size: 20px;
+             font-style: '';
+         }
+         p{
+             color: #444444;
+             font-family: '';
+             font-size: 14px;
+             line-height: 150%;
+         }
+        #main {
+        font-family: 'K2d'
+        }
+        #content {
+             border: 2px dotted sandybrown;
+             padding: 20px;
+             margin-bottom: 30px;
+             
+             margin: 20px;
+         }
+        #content span{
+             font-size: 12px;
+             font-weight: normal;
+             margin-left: 18px;
+         }
+        
+        
+        /*         저작권*/
+         #footer {
+             border-top: 1px solid #dddddd;
+             margin-top: 20px;
+             margin-bottom: 30px;
+         }
+         
+         #footer p {
+             font-size: 14px;
+             color: #666666;
+             margin-left: 15px;
+             margin-top: 5px;
+         }
+         #footer span {
+             font-size: 12px;
+             font-weight: normal;
+             margin-left: 14px;
+         }
+/* 하단본문 */
+.conB {
+    margin: 50px;
+}
+.conB .container .text {
+    padding: 15px;
+}
+
+.conB .container .text .fas  {
+    font-size: 80px;
+    color:darksalmon;
+    transform: scale(1);
+    transition: all 0.5s;
+    margin-bottom: 20px;
+}
+
+.conB .container .text .fas:hover {
+    color: gray;
+}
+
+.conB .container .text .title {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.conB .container .text p {
+    height: 100px;
+}
+
+.conB .container .text a {
+    color: darkgoldenrod;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+.conB .container .text a:hover, a:visited {
+    color: darkred;
+    text-decoration: none;
+}
+/* 슬라이더 */
+    @media (min-width: 768px) {
+        .conB .container {
+            display: flex;
+            max-width: 1000px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    .conB .text {
+        flex: 1;
+        }
+    #slider {
+    width: 600px;
+    margin: auto;
+    position: relative;
+    height: 400px;
+    margin-bottom: 0px;
+    }
+    </style>

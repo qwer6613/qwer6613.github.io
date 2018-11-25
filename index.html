@@ -7,203 +7,111 @@
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower|K2D" rel="stylesheet">   
      <link href="https://fonts.googleapis.com/css?family=Mali" rel="stylesheet">
      <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-      <style>
-       * {
-    padding: 0;
-    margin: 0;
-    }
-        body {
-            background-color: ivory;
-            max-width: 1920px;
-            font-family: 'roboto';
-        }
-/*         헤더*/
-        
-        header {
-            max-width: 1920px;
-        }
-/*         사이트 이름*/
-         #headA #headA_h1 a {
-             display: inline-block;
-             line-height:60px;
-             padding-left: 15px;
-             padding-right: 15px;
-             padding-bottom: 0px;
-             color: sandybrown;
-             font-size: 35px;
-             text-decoration: none;
-             text-shadow: 5px 5px 8px #888888;
-             font-family: 'Mali'
-         }
-         #headA #headA_h1 a:hover {
-             background-color:coral;
-             color: #ffffff;
-             border-bottom: 2px solid #888888;
-         }
-         #headA {
-             margin: 0px;
-             padding-top: 10px;
-             padding-left: 20px;
-             padding-right: 10px;
-             font-size: 12px;
-         }
-         #headA {
-             max-width: 1000px;
-             float: left;
-         }
-/*        메뉴*/
-         #headC {
-             float: right;
-             margin-right:20px;
-             margin-top: 20px;
-             color: #ffffff;
-             padding-bottom: 2px;
-         }
-         #main_menu ul {
-             margin: 0;
-             padding: 0;
-             margin-top: 10px;
-         }
-         #main_menu li {
-             list-style-type: none;
-             display: inline-block;
-             padding: 0px 5px 0px 0px;
-             margin-top: 18px;
-         } 
-         #main_menu li a {
-             text-decoration: none;
-             color: sandybrown;
-             padding: 5px 5px;
-             margin-top: 10px;
-         }
-         #main_menu a:hover{
-             color: brown;
-             border-bottom: 2px solid #333333;
-             text-shadow: sandybrown 2px 2px 2px;
-         }
-/*         float 해제*/
-         .clear {
-             clear:both;
-         }
-/*         본문 내용 배치*/
-         #wrapper{
-             max-width: 800px;
-             margin: 0 auto;
-            text-align: center;
-             
-         }
-        /*         profile css*/
-         #title {
-             text-align: center;
-             color: #444444;
-             font-family: 'Indie Flower';
-             font-size: 60px;
-             text-shadow: 5px 5px 8px darkgoldenrod;
-             margin: 20px;
-         }
-        #img_main{
-            border-radius:20px;
-         }
-         h2{
-             
-             color: #444444;
-             font-size: 30px;
-             text-decoration:none;
-         }
-         
-         h3 {
-             color: #444444;
-             font-size: 20px;
-             font-style: '';
-         }
-         p{
-             color: #444444;
-             font-family: '';
-             font-size: 14px;
-             line-height: 150%;
-         }
-        #main {
-        font-family: 'K2d'
-        }
-        #content {
-             border: 2px dotted sandybrown;
-             padding: 20px;
-             margin-bottom: 30px;
-             
-             margin: 20px;
-         }
-        #content span{
-             font-size: 12px;
-             font-weight: normal;
-             margin-left: 18px;
-         }
-        
-        
-        /*         저작권*/
-         #footer {
-             border-top: 1px solid #dddddd;
-             margin-top: 20px;
-             margin-bottom: 30px;
-         }
-         
-         #footer p {
-             font-size: 14px;
-             color: #666666;
-             margin-left: 15px;
-             margin-top: 5px;
-         }
-         #footer span {
-             font-size: 12px;
-             font-weight: normal;
-             margin-left: 14px;
-         }
-
-    </style>
-</head>
+     <link rel="stylesheet" type="text/css" href="./css/common.css">
+     <link rel="stylesheet" type="text/css" href="./css/style.css">
+     <link rel="stylesheet" type="text/css" href="./css/index.css">
+     <link rel="stylesheet" rel="stylesheet" href="./css/jquery.bxslider.css">
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+     <script src="js/jquery-3.1.1.min.js"></script>
+     <script src="js/jquery.bxslider.js"></script>
+       <script>
+        $(function() {
+            $(".bxslider").bxSlider({
+                slidthWidth: 600,
+                captions: true,
+                auto: true, 
+                autoControls: true, 
+                stopAutoOnclick: true
+            });
+        });
+        </script>
+    
+     </head>
 <body>
 <!--    헤더-->
     <header>
         <div id="headA">
             <h1 id="headA_h1"><a href="index.html" class="site">KWANG</a></h1>
         </div>
-        
-        <div id="headB">
-            
-        </div>
+
         <div id="headC">
-            <ul id="main_menu">
-                <li><a href="profile.html">Profile</a></li>
-                <li><a href="hw01.html">HW01</a></li>
-                <li><a href="hw02.html">HW02</a></li>
-                <li><a href="hw03.html">HW03</a></li>
-                <li><a href="hw04.html">HW04</a></li>
-                <li><a href="hw05.html">HW05</a></li>
-                <li><a href="hw06.html">HW06</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="Contact.html">Contact</a></li>
-            </ul>
+           <div class="menu">
+                <ul id="main_menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="profile.html">About</a></li>
+                    <li><a href="hw.html">Homework</a>
+                        <ul>
+                            <li class="sub">
+                                <a href="#">HTML</a>
+                                    <ul>
+                                        <li><a href="./hw01.html">Hw01</a></li>
+                                        <li><a href="./hw02.html">Hw02</a></li>
+                                        <li><a href="./hw03.html">Hw03</a></li>
+                                    </ul>
+                                </li>
+                            <li class="sub">
+                                <a href="#">CSS</a>
+                                    <ul>
+                                        <li><a href="./hw04.html">Hw04</a></li>
+                                        <li><a href="./hw05.html">Hw05</a></li>
+                                        <li><a href="./hw06.html">Hw06</a></li>
+                                        <li><a href="./contact.html">Hw07</a></li>
+                                    </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+            </div>
         </div>
     </header>
 <!--       float 해제-->
         <div class="clear"></div>
+<!--        본문내용시작-->
         <div id="wrapper">
-        <!--        본문내용시작-->
-            <section class="conC">
-                <artricle>
-                    <h1 id="title">Contents Programming</h1>
-                    <div id = "main">
-                        <img id="img_main" src='./img/myphoto.jpeg' alt='김광욱' title="내사진">
+            <div id="slider">
+                <div class="bxslider">
+                    <div>
+                        <img src="./img/port1.png" title="콘텐츠 디자인">
                     </div>
-                    <div id="main">
-                        <h2>Degital Media Design</h2>
+                    <div>
+                        <img src="./img/port2.png" title="영상 디자인">
                     </div>
-                <div id="content">
-                    <h3>1-B Kim Kwang Wook</h3>
-                    <p>1996. 04. 02 / An active personality</p>
-                    <p>I like lying down</p>
-                    <p>I will do everything well</p>
+                    <div>
+                        <img src="./img/port3.png" title="콘텐츠 기획">
+                    </div>
                 </div>
-                </artricle>
+            </div>
+
+    <!-- 개요 -->
+            <section class="conB">
+                <div class="container">
+                    <div class="text">
+                        <i class="fas fa-book-open"></i>
+                        <div class="title">과제</div>
+                        <p>콘텐츠 프로그래밍<br> 2학기의 과제물</p>
+                        <a href="./hw.html">MORE
+                            <span class="fa fa-chevron-right"></span>
+                        </a>
+                    </div>
+                    <div class="text">
+                        <i class="fas fa-book"></i>
+                        <div class="title">직무능력 1</div>
+                        <p>콘텐츠 프로그래밍<br> 직무능력 1차 평가 과제물</p>
+                        <a href="./mid-term.html">MORE
+                            <span class="fa fa-chevron-right"></span>
+                        </a>
+                    </div>
+                    <div class="text">
+                        <i class="fas fa-book-dead"></i>
+                        <div class="title">직무능력 2</div>
+                        <p>콘텐츠 프로그래밍<br> 직무능력 2차 평가 과제물</p>
+                        <a href="./final-term.html">MORE
+                            <span class="fa fa-chevron-right"></span>
+                        </a>
+                    </div>
+                </div>
             </section>
         </div>
 <!--    본문 끝-->
