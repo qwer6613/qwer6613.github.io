@@ -2,90 +2,19 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Comtact</title>
-     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-
+    <link href="https://fonts.googleapis.com/css?family=Dosis|Nanum+Gothic+Coding|Oswald" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./css/f_common.css">
+    <link rel="stylesheet" type="text/css" href="./css/f_style.css">
+    <link rel="stylesheet" rel="stylesheet" href="./css/jquery.bxslider.css">
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
 </head>
 <style>
-    body{    
-
-            font-family: 'roboto';
-            background-color: ghostwhite;
-        }
-    header{
-        background-color: aquamarine;
-        max-width: 1980px;
-    }
-         #headA #headA_h1 a {
-             display: inline-block;
-             line-height:60px;
-             padding-left: 15px;
-             padding-right: 15px;
-             padding-bottom: 0px;
-             color: #888888;
-             font-size: 35px;
-             text-decoration: none;
-             text-shadow: 5px 5px 8px #666666;
-             transition: all 0.5s;
-         }
-         #headA #headA_h1 a:hover {
-             background-color:#888888;
-             color: #ffffff;
-             border-bottom: 2px solid #888888;
-         }
-         #headA {
-             margin: 0px;
-             padding-top: 10px;
-             padding-left: 20px;
-             padding-right: 10px;
-             font-size: 12px;
-         }
-         #headA {
-             max-width: 1000px;
-             float: left;
-         }
-    /*        메뉴*/
-         #headC {
-             float: right;
-             margin-right:20px;
-             margin-top: 20px;
-             color: #ffffff;
-             padding-bottom: 2px;
-         }
-         #main_menu ul {
-             margin: 0;
-             padding: 0;
-             margin-top: 10px;
-         }
-         #main_menu li {
-             list-style-type: none;
-             display: inline-block;
-             padding: 0px 5px 0px 0px;
-             margin-top: 18px;
-         } 
-         #main_menu li a {
-             text-decoration: none;
-             color: #888888;
-             padding: 10px 10px;
-             margin-top: 10px;
-             font-size: 20px;
-             transition: all 0.5s;
-         }
-         #main_menu a:hover{
-             background-color: #888888;
-             color: white;
-             border-bottom: 2px solid #333333;
-         }
-/*         float 해제*/
-         .clear {
-             clear:both;
-         }
-/*         본문*/
-            form {
+                form {
             margin-top: 60px;
             color:darkslategray;
-            font-size: 14px;
+            font-size: 12px;
             height: 400px;
         }
          #main {
@@ -93,10 +22,10 @@
              line-height: 25px;
         }
             .main_title {
-            border-bottom: solid 3px gray;
-            width: 180px;
-            font-size: 50px;
-            font-weight: bold;
+            font-family: 'oswald';
+            width: 250px;
+            font-size: 25px;
+            font-weight: 1px;
             text-align: center;
             margin: 40px 700px
         }
@@ -111,52 +40,51 @@
             background-color: gainsboro;
             color : white;
         }
-        /*         저작권*/
-         #footer {
-             border-top: 1px solid #dddddd;
-             margin-top: 20px;
-             margin-bottom: 30px;
-         }
-         
-         #footer p {
-             font-size: 14px;
-             color: #666666;
-             margin-left: 15px;
-             margin-top: 5px;
-         }
-         #footer span {
-             font-size: 12px;
-             font-weight: normal;
-             margin-left: 14px;
-         }
-
     </style>
-    
 <body>
-    <header>
-        <div id="headA">
-            <h1 id="headA_h1"><a href="index.html" class="site">K.WooK</a></h1>
+ <!--헤더-->
+       <header>
+       <div id="headA">
+            <h1 id="headA_h1"><a href="index.html" class="site">KWANGWOOK</a></h1>
+            
         </div>
-
-        <div id="headC">
-            <ul id="main_menu">
-                <li><a href="profile.html">Profile</a></li>
-                <li><a href="hw01.html">HW01</a></li>
-                <li><a href="hw02.html">HW02</a></li>
-                <li><a href="hw03.html">HW03</a></li>
-                <li><a href="hw04.html">HW04</a></li>
-                <li><a href="hw05.html">HW05</a></li>
-                <li><a href="hw06.html">HW06</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="Contact.html">Contact</a></li>
-            </ul>
+        <div id="headB">
+           <div class="menu">
+                <ul id="main_menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="profile.html">About</a></li>
+                    <li><a href="hw.html">Homework</a>
+                        <ul>
+                            <li class="sub">
+                                <a href="#">HTML</a>
+                                    <ul>
+                                        <li><a href="./hw01.html">Hw01</a></li>
+                                        <li><a href="./hw02.html">Hw02</a></li>
+                                        <li><a href="./hw03.html">Hw03</a></li>
+                                    </ul>
+                                </li>
+                            <li class="sub">
+                                <a href="#">CSS</a>
+                                    <ul>
+                                        <li><a href="./hw04.html">Hw04</a></li>
+                                        <li><a href="./hw05.html">Hw05</a></li>
+                                        <li><a href="./hw06.html">Hw06</a></li>
+                                        <li><a href="./contact.html">Hw07</a></li>
+                                    </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+            </div>
         </div>
     </header>
-    <!--       float 해제-->
-    <div class="clear"></div>
+<!--       float 해제-->
+        <div class="clear"></div>
 <!--      본문시작-->
         <div class="main_title">
-        Contact
+        CONTACT
         </div>
         <div id="main">
             <form>

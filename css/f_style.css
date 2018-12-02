@@ -1,0 +1,107 @@
+<style>
+
+/*         헤더*/
+
+        header {
+            max-width: 1920px;
+        }
+         #headA #headA_h1 a {
+             display: inline-block;
+             line-height:45px;
+             padding-left: 7px;
+             padding-right: 7px;
+             padding-bottom: 0px;
+             color: #333333;
+             font-size: 26px;
+             text-decoration: none;
+             text-shadow: 2px 2px 4px #999999;
+             font-family: 'oswald'
+         }
+         #headA #headA_h1 a:hover {
+             color: #666666;
+             transition: border 0.5s;
+             border-bottom: 5px solid salmon;
+         }
+         #headA {
+             margin: 0px 15px;
+             font-size: 12px;
+             float: left;
+         }
+/*        메뉴*/
+         #headB {
+             position: relative;
+             float: right;
+             margin-right:20px;
+             margin-top: 20px;
+             color: #444444;
+             padding-bottom: 2px;
+         }
+/*         float 해제*/
+         .clear {
+             clear:both;
+        }
+/* 하단본문 */
+.conB {
+    margin: 50px 400px;
+}
+.conB .container .text {
+    padding: 20px;
+}
+
+.conB .container .text .fas  {
+    font-size: 70px;
+    color:#444444;
+    transform: scale(1);
+    transition: all 0.5s;
+    margin-bottom: 20px;
+}
+
+.conB .container .text .fas:hover {
+    color:darksalmon;
+    font-size:100px;
+}
+
+.conB .container .text .title {
+    font-size: 25px;
+    font-family: 'oswald';
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.conB .container .text p {
+    height: 40px;
+    font-size: 10px;
+    font-family: 'nanum gothic';
+    color: #888888;
+}
+
+.conB .container .text a {
+    color: #888888;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+.conB .container .text a:hover, a:visited {
+    color: darksalmon;
+    text-decoration: none;
+}
+        /*         저작권*/
+         #footer {
+             border-top: 1px solid #dddddd;
+             margin-top: 20px;
+             margin-bottom: 30px;
+         }
+         
+         #footer p {
+             font-size: 14px;
+             color: #666666;
+             margin-left: 15px;
+             margin-top: 5px;
+         }
+         #footer span {
+             font-size: 12px;
+             font-weight: normal;
+             margin-left: 14px;
+         }
+
+</style>

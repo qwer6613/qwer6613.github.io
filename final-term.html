@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Incheon</title>
+    <!--    링크 폰트 ~ css-->
+    <link href="https://fonts.googleapis.com/css?family=Dosis|Nanum+Gothic+Coding|Oswald" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Do+Hyeon|Gamja+Flower" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./css/ic_common.css">
+    <link rel="stylesheet" type="text/css" href="./css/ic_style.css">
+    <link rel="stylesheet" rel="stylesheet" href="./css/jquery.bxslider.css">
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script>
+        $(function() {
+            $(".bxslider").bxSlider({
+                slidthWidth: 600,
+                captions: true,
+                auto: true, 
+                autoControls: true, 
+                stopAutoOnclick: true
+            });
+        });
+        </script>
+</head>
+<body>
+    <!--헤더-->
+       <header>
+       <div id="headA">
+            <h1 id="headA_h1"><a href="index.html" class="site">KWANGWOOK</a></h1>
+            
+        </div>
+        <div id="headB">
+           <div class="menu">
+                <ul id="main_menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="profile.html">About</a></li>
+                    <li><a href="hw.html">Homework</a>
+                        <ul>
+                            <li class="sub">
+                                <a href="#">HTML</a>
+                                    <ul>
+                                        <li><a href="./hw01.html">Hw01</a></li>
+                                        <li><a href="./hw02.html">Hw02</a></li>
+                                        <li><a href="./hw03.html">Hw03</a></li>
+                                    </ul>
+                                </li>
+                            <li class="sub">
+                                <a href="#">CSS</a>
+                                    <ul>
+                                        <li><a href="./hw04.html">Hw04</a></li>
+                                        <li><a href="./hw05.html">Hw05</a></li>
+                                        <li><a href="./hw06.html">Hw06</a></li>
+                                        <li><a href="./contact.html">Hw07</a></li>
+                                    </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+<!--       float 해제-->
+        <div class="clear"></div>
+<!--        본문 시작-->
+        <div class="title"> 
+            <img class="img-respinsive" src='./img/ic01.jpg' width="100%" height=850px;>
+        </div>
+           
+      <section class="boxB">
+           <div class="boxB-2">
+               <h1> 낭만 가득 인천 밤여행🚩</h1>
+           </div>
+           <div class="boxB-3">
+               일상과 피곤함에 지친 당신에게 밤하늘 그려지는 아름다운 야경으로 마음을 힐링해줄 "인천 밤 야경 투어"<br>
+               지금, 인천으로 떠나요
+           </div>
+    </section>    
+<!-- 본문 내용 1-->
+            <section class="boxA">
+               <div class="boxA-1">
+                    <div class="A-1">
+                            <img src="./img/a-1.png"   >
+                        <div class="text">#낭만</div>
+                    </div>
+
+                    <div class="A-1">
+                            <img src="./img/a-2.png"     >
+                        <div class="text">#밤</div>
+                    </div>
+
+                    <div class="A-1">
+                            <img src="./img/a-3.png" >
+                        <div class="text">#인천</div>
+                    </div>
+                 </div>
+            </section>
+
+<!--       float 해제-->
+        <div class="clear"></div>
+<!--   본문 내용 2-->
+        <div id="slider">
+                <div class="bxslider">
+                    <div>
+                        <img src="./img/c-1.png" title="북성포구">
+                    </div>
+                    <div>
+                        <img src="./img/c-2.png" title="고인돌 광장">
+                    </div>
+                    <div>
+                        <img src="./img/c-3.png" title="아라뱃길">
+                    </div>
+                       <div>
+                        <img src="./img/c-4.png" title="마이랜드">
+                    </div>
+                </div>
+            </div>
+                <div class="boxC">
+           <table>
+                <tr id="table_title">
+                        <th>북성포구</th> 
+                        </tr>
+                        <tr>
+                        <td>어둠이 내려앉은 포구에 굴뚝 연기와 화려한 불빛이 더해져 만들어진 아름다움</td>
+                        </tr>
+                        <tr>
+                        <td>#북성포구 #갯벌포구 #인천중구 #파시</td>
+                        </tr>
+                 </table>
+                <br>
+               <table>
+                <tr id="table_title">
+                        <th >고인돌 광장</th> 
+                        </tr>
+                        <tr>
+                        <td>때묻지 않은 순수한 별빛이 밤하늘을 수놓는 멋진 은하수 풍경</td>
+                        </tr>
+                        <tr>
+                        <td>#강화도 #지붕없는 박물관 #문화재야행 #고인돌광장</td>
+                        </tr>
+                 </table>
+                 <br>
+               <table>
+                <tr id="table_title">
+                        <th >아라뱃길</th> 
+                        </tr>
+                        <tr>
+                        <td>한강과 서해바다를 잇는 물길 따라 일렁이는 노랏빛 물결의 매력을 느낄수있는곳</td>
+                        </tr>
+                        <tr>
+                        <td>#아라뱃길 #시천가람터 #인천서구 #운하</td>
+                        </tr>
+                 </table>
+                <table>
+                <tr id="table_title">
+                        <th >마이랜드</th> 
+                        </tr>
+                        <tr>
+                        <td>밤하늘 하나둘씩 켜지는 놀이기구 불빛이 밝히는 월미도의 밤</td>
+                        </tr>
+                        <tr>
+                        <td>#월미랜드 #마이랜드 #인천중구 #월미도</td>
+                        </tr>
+                 </table>
+                </div>
+                <!--       float 해제-->
+        <div class="clear"></div>
+<!--        본문내용3-->
+        <div class="boxD_1">
+           <div class="boxB-2">
+            <h1>🎸 송도 펜타포트 락 페스티벌</h1>
+            <div class="boxB-3">
+               먹고 마시고 놀자! 인천의 뜨거운밤을 느껴보세요!, 바로, 송도 달빛축제공원에서!
+           </div>
+            <img id="in" src="./img/e-1.png">
+        </div>
+    </div>
+<!--               본문 마지막-->
+                          <div class="boxB-2">
+               <h1><i class="fas fa-ship"></i> 추가 인천 광역시 정보</h1>
+           </div>
+                <div id="conC">
+            <div id="columns">
+              <figure>
+                <img src="./img/d-1.png">
+                <figcaption><h2>대한민국의 관문 도시이자 제2의 항구도시</h2>
+                <p>한반도 중서부에 위치한 광역자치단체. 인천국제공항과 인천항이 있어 대한민국의 관문도시이자 항구도시로 기능하며, 국내외 대부분의 항공사는 국제선 허브공항을 인천국제공항으로 삼고 있다. 관내에는 인천경제자유구역이 있으며, 이를 담당하기 위해 산하 외청으로 인천경제자유구역청을 두고 있다.
+                </p></figcaption>
+              </figure>
+
+              <figure>
+                <img src="./img/d-2.png">
+                
+                  <figcaption>면적은 약 1,062㎢으로 한국 최대 면적 광역시가 되었다.</figcaption>
+              </figure>
+
+              <figure>
+                <img src="./img/d-3.png">
+                <figcaption><h2>인구가 꾸준히 증가하는 도시이다.</h2><p>
+                하지만 수년 전까지만 해도 1~2%에 달하던 폭발적인 인천광역시의 인구증가율은 둔화되고 있는 추세인데, 첫째로 국가적인 출산율의 감소로 젊은층 인구가 감소하고 있고, 둘째로 인천 내 신도시, 택지지구의 개발이 거의 끝났기 때문이다. 물론, 인천의 인구증가율이 감소했을 뿐이지 인구는 현재도 꾸준히 증가하고 있다.</p></figcaption>
+              </figure>
+            </div>    
+        </div> 
+                출처: 나무위키 인천
+    
+                
+                            
+                                        
+                                                    
+                                                                
+                                                                            
+      
+    
+    <footer>
+        <div id="footer">
+            <p>
+               COPYRIGHT INFORMATION GOES HERE &COPY 2018. ALL RIGHTS RESERVED
+            </p>
+
+        </div>
+    </footer>
+    
+    </body>
+</html>

@@ -1,0 +1,248 @@
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>KWANGWOOK</title>
+<!--    링크 폰트 ~ css-->
+    <link href="https://fonts.googleapis.com/css?family=Dosis|Nanum+Gothic+Coding|Oswald" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./css/f_common.css">
+    <link rel="stylesheet" type="text/css" href="./css/f_style.css">
+    <link rel="stylesheet" type="text/css" href="./css/hw.css">
+    <link rel="stylesheet" rel="stylesheet" href="./css/jquery.bxslider.css">
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+        
+<!--        소스-->
+   <style>
+       #left img {
+           float:left;
+           margin: 250 40 0 40px;
+           border-radius: 200px;
+       }
+       #conC #columns {
+            column-width: 350px;       
+            column-gap :15px;
+           margin-top : 40px;
+        }
+        #columns figure{
+            display: inline-block;
+            border: 1px solid rgba(0,0,0, 0.2);
+            margin: 0;
+            margin-bottom: 15px;
+            padding: 10px;
+            box-shadow: 2px 2px 5px rgba(0,0,00.5);
+        }
+        #columns figure img{
+            width:90%;
+        }
+        #columns figure figcaption{
+            border-top: 1px solid #999999;
+            padding: 0px;
+            margin-top: 0px;
+        }
+       p {
+           font-family: 'oswald';
+           font-size: 15px;
+           color : #333333;
+       }
+       figcaption {
+           font-size: 15px;
+           font-family:'nanum gothic';
+           color: #666666;
+       }
+       figure:hover .darkness{
+           opacity: 0.4;
+       }
+
+        .example { margin-top: 10px; }
+        .title { float: left; }
+        .fullscreen { float: right; }
+        
+        iframe {
+            width: 100%;
+            height: 250px;
+            background: white;
+        }
+       .all{
+           margin: 200px;
+       }
+    </style>
+</head>
+<body>
+<!--헤더-->
+       <header>
+       <div id="headA">
+            <h1 id="headA_h1"><a href="index.html" class="site">KWANGWOOK</a></h1>
+            
+        </div>
+        <div id="headB">
+           <div class="menu">
+                <ul id="main_menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="profile.html">About</a></li>
+                    <li><a href="hw.html">Homework</a>
+                        <ul>
+                            <li class="sub">
+                                <a href="#">HTML</a>
+                                    <ul>
+                                        <li><a href="./hw01.html">Hw01</a></li>
+                                        <li><a href="./hw02.html">Hw02</a></li>
+                                        <li><a href="./hw03.html">Hw03</a></li>
+                                    </ul>
+                                </li>
+                            <li class="sub">
+                                <a href="#">CSS</a>
+                                    <ul>
+                                        <li><a href="./hw04.html">Hw04</a></li>
+                                        <li><a href="./hw05.html">Hw05</a></li>
+                                        <li><a href="./hw06.html">Hw06</a></li>
+                                        <li><a href="./contact.html">Hw07</a></li>
+                                    </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+<!--       float 해제-->
+        <div class="clear"></div>
+<!--        본문-->
+
+    <div id="conC">
+           <div id="left">
+              <img src="./img/homework.jpg" width="200">
+             </div>
+            <div id="columns">
+              <figure>
+                <a href="./hw01.html"><img src="./img/hw01.jpg"></a>
+                <figcaption><p>HTML_HW01</p><br>HTML을 이용한 웹 표준과 웹 접근성 정의 
+                </figcaption>
+              </figure>
+
+              <figure>
+                <a href="./hw02.html"><img src="./img/hw02.jpg"></a>
+                <figcaption><p>HTML_HW02</p><br>HTML을 이용한 비빔국수 레시피 정리
+                </figcaption>
+                </figure>
+              <figure>
+                <a href="./hw03.html"><img src="./img/hw03.jpg"></a>
+                <figcaption><p>HTML_HW03</p><br>HTML을 이용한 일본 오사카여행계획 정리
+                </figcaption>
+                </figure>
+                <figure>
+                <a href="./hw04.html"><img src="./img/hw04.jpg"></a>
+                <figcaption><p>CSS_HW04</p><br>CSS를 이용한 비빔국수 레시피 정리 
+                </figcaption>
+                </figure>
+
+              <figure>
+               <a href="./hw05.html"><img src="./img/hw05.jpg"></a>
+                <figcaption><p>CSS_HW05</p><br>CSS를 이용한 일본오사카여행계획 정리
+                </figcaption>
+                </figure>
+              <figure>
+                <a href="./hw06.html"><img src="./img/hw06.jpg"></a>
+                <figcaption><p>CSS_HW06</p><br>CSS를 이용한 웹 표준과 웹 접근성 정의 
+                </figcaption>
+                </figure>
+                <figure>
+                <a href="./Contact.html"><img src="./img/hw07.png"></a>
+                <figcaption><p>CSS_HW07</p><br>CSS를 이용한 Contact 
+                </figcaption>
+                </figure>
+                
+            </div>    
+        </div> 
+       <hr />
+       
+    <div class="all">
+    <h1>콘텐츠 프로그래밍 1B 과제</h1>
+    <ul>
+        <li><a href="hw01.html">hw1.html</a></li>
+        <li><a href="hw02.html">hw2.html</a></li>
+        <li><a href="hw03.html">hw3.html</a></li>
+        <li><a href="hw04.html">hw4.html</a></li>
+        <li><a href="hw05.html">hw5.html</a></li>
+        <li><a href="hw06.html">hw6.html</a></li>
+        <li><a href="Contact.html">hw7.html</a></li>
+        <li><a href="hw08.html">hw8.html</a></li>
+    </ul>
+
+    <div id="hw1.html" class="example well">
+        <h2 class="title">과제1</h2>
+        <h4 class="fullscreen">
+            <a href="./hw01.html">Full Screen</a>
+        </h4>
+        <iframe src="./hw01.html"></iframe>
+    </div>
+    
+    <div id="./hw02.html" class="example well">
+        <h2 class="title">과제2</h2>
+        <h4 class="fullscreen">
+            <a href="./hw02.html">Full Screen</a>
+        </h4>
+        <iframe src="./hw02.html"></iframe>
+    </div>
+    
+       <div id="./hw02.html" class="example well">
+        <h2 class="title">과제3</h2>
+        <h4 class="fullscreen">
+            <a href="./hw03.html">Full Screen</a>
+        </h4>
+        <iframe src="./hw03.html"></iframe>
+    </div>
+    
+       <div id="./hw04.html" class="example well">
+        <h2 class="title">과제4</h2>
+        <h4 class="fullscreen">
+            <a href="./hw04.html">Full Screen</a>
+        </h4>
+        <iframe src="./hw04.html"></iframe>
+    </div>
+    
+       <div id="./hw05.html" class="example well">
+        <h2 class="title">과제5</h2>
+        <h4 class="fullscreen">
+            <a href="./hw05.html">Full Screen</a>
+        </h4>
+        <iframe src="./hw05.html"></iframe>
+    </div>
+    
+       <div id="./hw06.html" class="example well">
+        <h2 class="title">과제6</h2>
+        <h4 class="fullscreen">
+            <a href="./hw06.html">Full Screen</a>
+        </h4>
+        <iframe src="./hw06.html"></iframe>
+    </div>
+    
+       <div id="./contact.html" class="example well">
+        <h2 class="title">과제7</h2>
+        <h4 class="fullscreen">
+            <a href="./Contact.html">Full Screen</a>
+        </h4>
+        <iframe src="./Contact.html"></iframe>
+    </div>
+    
+       <div id="./index.html" class="example well">
+        <h2 class="title">과제8</h2>
+        <h4 class="fullscreen">
+            <a href="./index.html">Full Screen</a>
+        </h4>
+        <iframe src="./index.html"></iframe>
+    </div>
+    </div>
+<!--    푸터     -->
+       <footer>
+        <div id="footer">
+            <p>
+               COPYRIGHT INFORMATION GOES HERE &COPY 2018. ALL RIGHTS RESERVED
+            </p>
+
+        </div>
+    </footer>
+    </body>
+</html>
